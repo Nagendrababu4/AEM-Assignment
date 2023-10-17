@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:designPath="/libs/settings/wcm/designs/default"
+        cq:lastModified="{Date}2023-07-07T17:12:39.538+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/libs/cq/workflow/templates/model"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="page version create"
+        sling:resourceType="cq/workflow/components/pages/model">
+        <flow
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <participant
+                jcr:created="{Date}2023-07-06T22:50:49.816+05:30"
+                jcr:createdBy="admin"
+                jcr:description="dev"
+                jcr:lastModified="{Date}2023-07-07T17:12:39.506+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Developer"
+                sling:resourceType="cq/workflow/components/model/participant">
+                <metaData
+                    jcr:primaryType="nt:unstructured"
+                    PARTICIPANT="admin"/>
+            </participant>
+            <participant_856740856
+                jcr:created="{Date}2023-07-06T22:53:39.903+05:30"
+                jcr:createdBy="admin"
+                jcr:description="teaml"
+                jcr:lastModified="{Date}2023-07-06T22:54:42.053+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Team Leader"
+                sling:resourceType="cq/workflow/components/model/participant">
+                <metaData
+                    jcr:primaryType="nt:unstructured"
+                    PARTICIPANT="admin"/>
+            </participant_856740856>
+            <participant_593783685
+                jcr:created="{Date}2023-07-06T22:54:52.466+05:30"
+                jcr:createdBy="admin"
+                jcr:description="manager"
+                jcr:lastModified="{Date}2023-07-06T22:55:48.645+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Manager"
+                sling:resourceType="cq/workflow/components/model/participant">
+                <metaData
+                    jcr:primaryType="nt:unstructured"
+                    PARTICIPANT="admin"/>
+            </participant_593783685>
+        </flow>
+    </jcr:content>
+</jcr:root>
