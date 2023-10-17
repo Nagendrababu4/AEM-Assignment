@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:Workflow:1.0
+Content-Package-Roots: /conf/global/settings/workflow
+Content-Package-Type: content
+
