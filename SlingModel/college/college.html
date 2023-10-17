@@ -1,0 +1,11 @@
+<div data-sly-use.collegedata="${'com.aem.geeks.core.models.College'}"></div>
+
+<h1>.......College Details..........</h1>
+
+<h3>First Name: ${collegedata.fname}</h3>
+<h3>Last Name: ${collegedata.lname}</h3>
+
+<h3>Rich-Text: ${collegedata.text @context='html'}</h3>
+
+
+<a href="${collegedata.pathbrowser} ">${collegedata.pathbrowser}</a>
