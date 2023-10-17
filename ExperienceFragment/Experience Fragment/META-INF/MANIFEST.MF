@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:Experience Fragment:1.0
+Content-Package-Roots: /content/experience-fragments/octxf
+Content-Package-Type: content
+
