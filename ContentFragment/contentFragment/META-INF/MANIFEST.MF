@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:contentFragment:1.0
+Content-Package-Roots: /conf/contentFragmentmodel7
+Content-Package-Type: content
+
