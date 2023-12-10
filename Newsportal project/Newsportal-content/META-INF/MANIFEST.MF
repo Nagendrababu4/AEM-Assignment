@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:Newsportal-content:1.0
+Content-Package-Roots: /content/newsportal/us/en/newsportal-article-1
+Content-Package-Type: content
+

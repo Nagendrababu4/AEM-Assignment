@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:conf="/conf/newsportal"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2023-12-05T12:38:42.340+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[newsportal:popular]"
+        cq:template="/conf/newsportal/settings/wcm/templates/newsportal-template-1"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Article-100"
+        sling:resourceType="newsportal/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="newsportal/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:created="{Date}2023-11-21T16:28:26.786+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-11-22T11:43:15.907+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="newsportal/components/container">
+                <article_grid
+                    jcr:created="{Date}2023-11-23T13:12:55.812+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-11-23T13:12:55.812+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="newsportal/components/article-grid">
+                    <left-container
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/container">
+                        <article_details
+                            jcr:created="{Date}2023-11-23T13:13:01.705+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-11-23T13:14:48.221+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/article-details"
+                            articleText="&lt;p>The scenes capped a day of significant progress in the rescue operation that has seen its share of ups and downs. On Wednesday, rescuers managed to drill through roughly 45 metres of the debris behind which the men are trapped, inching ever so close to their ultimate goal. Roughly 50-55 metres of debris is blocking the tunnel.&lt;/p>&#xd;&#xa;&lt;p>At 7.40 pm on Wednesday, draped in their distinctive orange gear, personnel of the National Disaster Response Force (NDRF) team entered the Uttarkashi tunnel where 41 men have been trapped since last Sunday. Equipped with stretchers and rescue tools, the NDRF team appeared to be making preparations for the moment the workers would finally be pulled out.&lt;/p>&#xd;&#xa;&lt;p>Outside, a few family members huddled together, their anticipation palpable. “Aaj woh aa jayenga toh hamari Diwali ho jaayegi (it’ll be Diwali for us if he comes out today),” said Indrajeet, the younger brother of one of the trapped men.&lt;/p>&#xd;&#xa;&lt;p>The scenes capped a day of significant progress in the rescue operation that has seen its share of ups and downs. On Wednesday, rescuers managed to&amp;nbsp;&lt;a href=&quot;https://indianexpress.com/article/india/uttarakhand-tunnel-rescue-operation-pace-of-drilling-picks-up-9038243/&quot;>drill through roughly 45 metres of the debris&lt;/a>&amp;nbsp;behind which the men are trapped, inching ever so close to their ultimate goal. Roughly 50-55 metres of debris is blocking the tunnel.&lt;/p>&#xd;&#xa;"
+                            articleTitle="As rescue op gathers pace, NDRF steps in to clear last-minute hurdle"
+                            articletype="h3"
+                            imageField="/content/dam/newsportal/newsportal-project-img/news-350x223-3.jpg"
+                            textIsRich="true"/>
+                        <article_details_1661799307
+                            jcr:created="{Date}2023-11-23T18:26:17.685+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-11-23T18:26:17.685+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/article-details"/>
+                        <related_articles
+                            jcr:created="{Date}2023-11-30T16:06:56.869+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-11-30T16:33:02.596+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/related-articles"
+                            articleTitle="Nagendra babu"
+                            articletype="h3"
+                            textIsRich="true"/>
+                    </left-container>
+                    <right-container
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="newsportal/components/container">
+                        <in_this_category
+                            jcr:created="{Date}2023-11-23T15:22:26.863+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-11-23T18:41:22.508+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/in-this-category"
+                            text="In This Category"/>
+                        <article_tabs
+                            jcr:created="{Date}2023-12-05T12:18:20.057+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-12-05T12:18:20.057+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/article-tabs"/>
+                        <news_category
+                            jcr:created="{Date}2023-11-24T13:00:05.007+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-11-29T12:14:43.522+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/news-category"
+                            categoryTag="newsportal:categories"
+                            title="News Category"/>
+                        <tags_cloud
+                            jcr:created="{Date}2023-11-24T17:53:29.389+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2023-11-24T17:53:38.881+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="newsportal/components/tags-cloud"
+                            title="Tags Cloud"/>
+                    </right-container>
+                </article_grid>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>
