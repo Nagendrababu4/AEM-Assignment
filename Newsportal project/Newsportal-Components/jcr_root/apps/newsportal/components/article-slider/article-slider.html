@@ -1,0 +1,12 @@
+<sly data-sly-use.articleSlider="com.adobe.aem.guides.newsportal.core.models.ArticleSlidersModel" />
+
+<div class="row tn-slider" data-sly-list.slider = "${articleSlider.sliders}">
+    <div class="">
+        <div class="tn-img">
+            <img src="${slider.imageField}" />
+            <div class="tn-title">
+                <a href="${slider.slidersLink}">${slider.title}</a>
+            </div>
+        </div>
+    </div>
+</div>

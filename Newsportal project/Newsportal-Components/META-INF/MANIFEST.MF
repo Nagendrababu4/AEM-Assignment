@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:Newsportal-Components:1.0
+Content-Package-Roots: /apps/newsportal/components/article-grid,/apps/ne
+ wsportal/components/related-articles,/apps/newsportal/components/articl
+ e-slider,/apps/newsportal/components/footer-list,/apps/newsportal/compo
+ nents/brand-logo,/apps/newsportal/components/top-bar,/apps/newsportal/c
+ omponents/article-tabs,/apps/newsportal/components/news-category,/apps/
+ newsportal/components/article-list,/apps/newsportal/components/article-
+ details,/apps/newsportal/components/in-this-category,/apps/newsportal/c
+ omponents/tags-cloud,/apps/newsportal/components/footer
+Content-Package-Type: application
+

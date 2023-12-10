@@ -1,0 +1,7 @@
+<sly data-sly-use.tagsCloud="com.adobe.aem.guides.newsportal.core.models.TasgCloudModel" />
+<div class="sidebar-widget">
+    <h2 class="sw-title">${tagsCloud.title}</h2>
+    <div class="tags" data-sly-list.tag=${tagsCloud.tagsList}>
+        <a href="">${tag}</a>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/newsportal/components/top-bar"/>
+    <filter root="/apps/newsportal/components/article-details"/>
+    <filter root="/apps/newsportal/components/article-grid"/>
+    <filter root="/apps/newsportal/components/article-list"/>
+    <filter root="/apps/newsportal/components/article-slider"/>
+    <filter root="/apps/newsportal/components/article-tabs"/>
+    <filter root="/apps/newsportal/components/brand-logo"/>
+    <filter root="/apps/newsportal/components/footer"/>
+    <filter root="/apps/newsportal/components/footer-list"/>
+    <filter root="/apps/newsportal/components/in-this-category"/>
+    <filter root="/apps/newsportal/components/news-category"/>
+    <filter root="/apps/newsportal/components/related-articles"/>
+    <filter root="/apps/newsportal/components/tags-cloud"/>
+    <filter root="/apps/newsportal/components/top-bar"/>
+</workspaceFilter>

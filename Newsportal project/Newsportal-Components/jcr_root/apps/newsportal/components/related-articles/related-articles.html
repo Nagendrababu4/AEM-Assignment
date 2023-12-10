@@ -1,0 +1,23 @@
+<sly data-sly-use.relatedarticle="com.adobe.aem.guides.newsportal.core.models.RelatedArticlesModel" />
+
+<div class="sn-related">
+    <h2>Related News</h2>
+    <div class="row sn-slider" data-sly-list.article = "${relatedarticle.articleList}">
+        <div class="col-md-4">
+            <div class="sn-img">
+                <img src="${article.imageField}" />
+                <div class="sn-title">
+                    <a href="">${article.articleTitle}</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+

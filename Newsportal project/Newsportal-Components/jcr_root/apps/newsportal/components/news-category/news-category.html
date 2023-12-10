@@ -1,0 +1,9 @@
+<sly data-sly-use.newscategory="com.adobe.aem.guides.newsportal.core.models.NewsCategoryModel" />
+<div class="sidebar-widget">
+    <h2 class="sw-title">${newscategory.title}</h2>
+    <div class="category">
+        <ul data-sly-list.key=${newscategory.categoryChildTags}>
+            <li><a href="">${key}</a><span>(${newscategory.categoryChildTags[key]})</span></li>
+        </ul>
+    </div>
+</div>

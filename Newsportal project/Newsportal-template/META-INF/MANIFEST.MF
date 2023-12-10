@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:Newsportal-template:1.0
+Content-Package-Roots: /conf/newsportal/settings/wcm/templates/newsporta
+ l-template-1
+Content-Package-Type: content
+

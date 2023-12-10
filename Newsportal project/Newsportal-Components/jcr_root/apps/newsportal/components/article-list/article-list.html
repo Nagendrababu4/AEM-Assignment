@@ -1,0 +1,50 @@
+
+<sly data-sly-use.articleListModel="com.adobe.aem.guides.newsportal.core.models.ArticleListModel" />
+
+<div class="row" data-sly-list.article = "${articleListModel.articleList}">
+    <div class="col-md-6">
+        <div class="tn-img">
+            <img src="${article.imageField}" />
+            <div class="tn-title">
+                <a href="">${article.articleTitle}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+<div class="row">
+    <div class="col-md-6">
+        <div class="tn-img">
+            <img src="/content/dam/newsportal/newsportal-project-img/news-350x223-1.jpg" />
+            <div class="tn-title">
+                <a href="">Lorem ipsum dolor sit</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="tn-img">
+            <img src="/content/dam/newsportal/newsportal-project-img/news-350x223-2.jpg" />
+            <div class="tn-title">
+                <a href="">Lorem ipsum dolor sit</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="tn-img">
+            <img src="/content/dam/newsportal/newsportal-project-img/news-350x223-3.jpg" />
+            <div class="tn-title">
+                <a href="">Lorem ipsum dolor sit</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="tn-img">
+            <img src="/content/dam/newsportal/newsportal-project-img/news-350x223-4.jpg" />
+            <div class="tn-title">
+                <a href="">Lorem ipsum dolor sit</a>
+            </div>
+        </div>
+    </div>
+</div>
+-->
